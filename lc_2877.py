@@ -7,6 +7,6 @@ The result format is in the following example.
 
 import pandas as pd
 
-def createDataframe(student_data: List[List[int]]) -> pd.DataFrame:
+def createDataframe(student_data: list[list[int]]) -> pd.DataFrame:
     df = pd.DataFrame(data = student_data, columns = ['student_id', 'age'])
     return df
